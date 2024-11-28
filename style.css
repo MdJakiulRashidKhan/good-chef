@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#hero{
+    height: 919px;
+    background-image:linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#hero .hero-content{
+    width: 1023px;
+    height: 391px;
+}
+#hero .hero-content .subtitle{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 16px;
+}
+#hero .hero-content .title{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+#hero .hero-content .description{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+.btn-container{
+    text-align: center;
+}
+.button{
+    padding: 21px 32px 21px 32px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card-box{
+    margin-top: 80px;
+}
+#card-box .card-subtitle{
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 44px; 
+}
+#card-box .card-title{
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 32px;
+    padding: 0px;
+}
+.card{
+    width: 424px;
+    height: 522px;
+    margin-bottom: 64px;
+}
+.card .card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-name{
+    margin-top: 46px;
+    background-color:#52C30326 ;
+    padding: 14px 32px;
+    width: 133px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-name p{
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.card h3{
+    margin-top: 12px;
+    font-size: 40px;
+    font-family: Work Sans;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card p{
+    margin-top:24px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#banner{
+    height: 671px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+#banner img {
+    border-radius: 25px;
+}
+#banner .banner-text{
+    width: 830px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text .banner-title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.banner-text .banner-disc{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+    margin-bottom: 78px;
+}
+.banner-text .banner-follow{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+hr{
+    margin-top: 10px;
+    width: 800px;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+.social-media{
+    margin-top: 30px;
+    display: flex;
+    gap: 32px;
+}
+footer{
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 4px;
+   opacity: 1;
+}
